@@ -54,6 +54,7 @@ pip install -r requirements.txt
 aws configure
 jupyter notebook
 mlflow ui
+```
 
 ## MLflow Screenshots
 
