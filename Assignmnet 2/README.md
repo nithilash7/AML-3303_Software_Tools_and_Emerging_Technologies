@@ -29,18 +29,18 @@ This project demonstrates the full pipeline:
 StayWise-Airbnb-Price-Prediction
 │
 ├── Notebooks/
-│ ├── 01_data_access.ipynb – Loads raw data from AWS S3
-│ ├── 02_preprocessing.ipynb – Data cleaning & preprocessing
-│ ├── 03_modeling_mlflow.ipynb – Modeling + MLflow experiment tracking
+│   ├── 01_data_access.ipynb           # Loads raw data from AWS S3
+│   ├── 02_preprocessing.ipynb         # Data cleaning & preprocessing
+│   └── 03_modeling_mlflow.ipynb       # Modeling + MLflow experiment tracking
 │
 ├── Images/
-│ ├── mlflow_runs.png – Screenshot of experiment runs
-│ ├── mlflow_metrics.png – Screenshot of MAE/RMSE
-│ ├── mlflow_registry.png – Screenshot of registered best model
+│   ├── mlflow_runs.png                # Screenshot of experiment runs
+│   ├── mlflow_best_model.png          # Screenshot of MAE/RMSE (best model)
+│   └── mlflow_registered_model.png    # Screenshot of registered best model
 │
-├── README.md – Full project documentation
-├── requirements.txt – Python dependencies
-├── .gitignore – Prevents large/unnecessary files from being committed
+├── README.md                          # Full project documentation
+├── requirements.txt                   # Python dependencies
+└── .gitignore                         # Prevents large/unnecessary files from being committed
 
 
 
@@ -55,7 +55,7 @@ aws configure
 jupyter notebook
 mlflow ui
 
-##  MLflow Screenshots
+## MLflow Screenshots
 
 ### MLflow – Experiment Runs
 ![MLflow Runs](Images/mlflow_runs.png)
